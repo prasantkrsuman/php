@@ -26,4 +26,9 @@ class HelloWorld
         $stmt = $this->pdo->query($sql);
         return $stmt->fetchColumn();
     }
+
+    public function bar($value='')
+    {
+        return false;
+    }
 }
